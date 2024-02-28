@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(200, 209, 197);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav i {
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+#center {
+    width: 100%;
+    background-color: rgb(182, 182, 192);
+    padding: 40px 50px;
+}
+
+#center h1 {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+#cin {
+    height: 200px;
+    background-color: rgb(200, 182, 217);
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cin p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#right {
+    width: 40%;
+}
+
+.elem {
+    background-color: rgb(239, 230, 218);
+    width: 70%;
+    padding: 10px 0px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem i {
+    font-size: 25px;
+    opacity: 0;
+}
+
+.elem:hover i {
+    opacity: 1;
+}
+
+#bottom {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(195, 54, 3);
+}
